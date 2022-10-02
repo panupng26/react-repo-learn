@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Transection from './components/Transection';
+import FormComponent from './components/FormComponent';
 
 function App() {
   return (
@@ -8,6 +9,9 @@ function App() {
       <img src={logo} className="App-logo" alt="logo" style={{ width:'25%', height: 'auto', display: 'block', marginLeft: 'auto', marginRight: 'auto' }} />
       <div className='container'>
         <h1 className='text-center'>แอพบัญชี React</h1>
+        <div>
+          <FormComponent />
+        </div>
         <div>
           <Transection />
         </div>
